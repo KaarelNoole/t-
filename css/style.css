@@ -8,5 +8,29 @@ body{
 .mainDiv{
 width: 600px;
 height: 600px;
-background-color: blue;
+font-size: 0;
+background-color: brown;
+margin: 0 auto;
+}
+.mainDiv > div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.red{
+    
+    background-color: red;
+}
+.yellow{
+    
+    background-color: yellow;
+    
+}
+.green{
+    
+    background-color: green;
 }
